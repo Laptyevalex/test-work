@@ -1,0 +1,39 @@
+@media screen and (min-width: 360px) {
+  .first-girl {
+  }
+  .second-girl {
+  }
+  .first-section {
+  }
+  .conteiner {
+  }
+  .frame-22 {
+    width: 248px;
+  }
+  .first-p {
+  }
+  .explore {
+    width: 324px;
+  }
+  .instead {
+    width: 324px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .button-first {
+    max-width: 330px;
+  }
+  .list-btn {
+  }
+  .btn-yes {
+  }
+  .btn-no {
+  }
+  /* second-page */
+  .explore-second {
+    width: 324px;
+  }
+  .list-btn {
+    width: 324px;
+  }
+}

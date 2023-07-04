@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) {
+  .voice-btn {
+    top: 36px;
+    right: 50px;
+  }
+  .conteiner {
+  }
+  .img-absolut {
+  }
+  .first-girl {
+  }
+  .second-girl {
+  }
+  .first-section {
+    padding-top: 30px;
+  }
+  .frame-22 {
+    width: 520px;
+  }
+  .first-p {
+    font-size: 24px;
+  }
+  .explore {
+    width: 520px;
+    font-size: 38px;
+  }
+  .instead {
+    width: 520px;
+    font-size: medium;
+    letter-spacing: 5.6px;
+  }
+  .button-first {
+    max-width: 1024px;
+  }
+  .list-btn {
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    margin: auto;
+    width: auto;
+  }
+  .btn-no {
+    width: 323px;
+  }
+  .btn-yes {
+    width: 323px;
+  }
+}

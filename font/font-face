@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Nirmala UI";
+  src: url("./NirmalaB.woff") format("woff");
+
+  src: url("./Nirmala.ttf") format("ttf");
+}
+body {
+  font-family: Nirmala UI sans-serif;
+}

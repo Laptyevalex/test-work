@@ -1,0 +1,117 @@
+@media screen and (min-width: 1200px) {
+  .conteiner {
+  }
+  .voice-btn {
+    width: 55px;
+    height: 55px;
+  }
+  .icon-mute {
+    width: 32px;
+    height: 32px;
+    padding-top: 4px;
+  }
+  .vector-2 {
+    width: 55px;
+    height: 55px;
+  }
+  .img-absolut {
+  }
+  .first-girl {
+    display: block;
+    position: absolute;
+    bottom: -2%;
+    left: 70px;
+
+    width: 521px;
+    height: 795px;
+  }
+  .second-girl {
+    width: 671px;
+    height: 732px;
+    right: 22px;
+    transform: translate(0px, 0px);
+  }
+  .first-section {
+    padding-top: 191px;
+  }
+  .frame-22 {
+    padding: 16px 30px;
+    width: 719px;
+    margin-bottom: 20px;
+  }
+  .first-p {
+    font-size: 36px;
+  }
+  .explore {
+    font-size: 74px;
+    width: 1100px;
+    margin-bottom: 40px;
+  }
+  .instead {
+    width: 1100px;
+    font-size: 28px;
+  }
+  .button-first {
+    padding-bottom: 100px;
+  }
+  .list-btn {
+    position: relative;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+    height: 84px;
+  }
+  .btn-no {
+    font-size: 32px;
+
+    width: 323px;
+  }
+  .btn-yes {
+    font-size: 32px;
+
+    width: 323px;
+  }
+
+  /* secund-page */
+
+  .second-section {
+    margin: auto;
+    width: 1000px;
+  }
+  .explore-second {
+    font-size: 64px;
+    width: 100%;
+    margin: auto;
+  }
+  .btn-yes-second {
+    width: 463px;
+  }
+  /* third-page */
+  .third-section {
+    position: relative;
+    z-index: 1;
+    margin-top: 200px;
+  }
+  .third-img-2 {
+    display: block;
+    position: absolute;
+    right: 35px;
+    bottom: 0%;
+    width: 567px;
+  }
+  .third-img-1 {
+    position: absolute;
+    left: 0%;
+    transform: none;
+  }
+  .explore-third {
+    font-size: 120px;
+    margin-bottom: 40px;
+  }
+  .third-text {
+    width: 788px;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+}
