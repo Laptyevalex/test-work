@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://127.0.0.1:5500/second-page.html -->
+<html lang="en" class=" xwnpmv idc0_347"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-work</title>
+    
+    
+    
+    
+    
+    
+<link rel="stylesheet" href="./Test-work_files/normalize.css"><link rel="stylesheet" href="./Test-work_files/style.css"><link rel="stylesheet" href="./Test-work_files/mobile.css"><link rel="stylesheet" href="./Test-work_files/tablet.css"><link rel="stylesheet" href="./Test-work_files/desktop.css"><link rel="stylesheet" href="./Test-work_files/font-face"></head>
+
+<body>
+    <button class="voice-btn">
+        <svg class="icon icon-mute">
+            <use href="./img/svg_list/svg/symbol-defs.svg#icon-mute-svg"></use>
+        </svg>
+        <svg class="vector-2 hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 55" width="57" height="55">
+            <path id="Vector 2" d="M55.5 2L1.5 52.5" stroke="white" stroke-width="3"></path>
+        </svg>
+    </button>
+    <section class="second-section">
+        <div class="conteiner">
+
+            <h1 class="explore-second">Who Would You Choose as Your First Partner, if you play right now?</h1>
+        </div>
+    </section>
+    <div class="slider-container">
+        <div class="slider" style="transform: translateX(0px);gap: 10px;">
+            <div class="slide">
+                <picture class="slider-img">
+                    <img src="./Test-work_files/1-slide-mobile.png" alt="1-girl-desktop">
+                    <source media="(min-width: 1200px)" srcset="./img/homepage/sqooush/slider/1-slide-desktop.png">
+                </picture>
+            </div>
+            <div class="slide">
+                <picture class="slider-img">
+                    <img src="./Test-work_files/2-slide-mobile.png" alt="1-girl-desktop">
+                    <source media="(min-width: 1200px)" srcset="./img/homepage/sqooush/slider/2-slide-desktop.png">
+                </picture>
+            </div>
+            <div class="slide">
+                <picture class="slider-img">
+                    <img src="./Test-work_files/3-slide-mobile.png" alt="3-girl-desktop">
+                    <source media="(min-width: 1200px)" srcset="./img/homepage/sqooush/slider/3-slide-desktop.png">
+                </picture>
+            </div>
+        </div>
+        <button class="prev-button">Previous</button>
+        <button class="next-button">Next</button>
+    </div>
+
+
+    <section class="button-second">
+        <div class="conteiner">
+            <button class="btn-yes-second">
+                <a class="link-btn second-link" href="http://127.0.0.1:5500/third-page.html">Next</a>
+            </button>
+        </div>
+    </section>
+    <script src="./Test-work_files/index.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

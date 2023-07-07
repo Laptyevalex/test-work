@@ -29,7 +29,7 @@
     transform: translate(0px, 0px);
   }
   .first-section {
-    padding-top: 150px;
+    padding-top: 191px;
   }
   .frame-22 {
     padding: 16px 30px;
@@ -77,8 +77,8 @@
     width: 1000px;
   }
   .explore-second {
-    font-size: 48px;
-    max-width: 100%;
+    font-size: 64px;
+    width: 100%;
     margin: auto;
   }
   .btn-yes-second {
@@ -110,8 +110,5 @@
     width: 788px;
     font-size: 32px;
     line-height: 1.2;
-  }
-  .slider-container {
-    max-width: 400px;
   }
 }

@@ -78,7 +78,6 @@ body {
   text-transform: uppercase;
 
   margin-top: 10px;
-  margin: auto;
 }
 .button-first {
   margin: 0 auto;
@@ -173,7 +172,6 @@ body {
 
 .second-section {
   padding-top: 25px;
-  margin-bottom: 20px;
 }
 .button-second {
   color: white;
@@ -190,6 +188,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   margin: auto;
+
   -webkit-text-stroke: 1px #fff;
   text-shadow: 0px 4px 20px rgba(255, 213, 54, 0.5);
   font-size: 24px;
@@ -210,7 +209,7 @@ body {
 }
 .btn-yes-second {
   padding: 16px 100px;
-  max-width: 435px;
+  width: 100%;
   cursor: pointer;
   border: none;
   border-radius: 10px;
@@ -268,7 +267,8 @@ body {
 /* slider */
 .slider-container {
   position: relative;
-  max-width: 225px;
+  width: 400px;
+  height: 200px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -288,24 +288,11 @@ body {
   backdrop-filter: blur(5px);
   flex: 0 0 100%;
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
 }
 .slider-img {
   display: flex;
   justify-content: center;
-}
-.text-girl {
-  color: #fff;
-  text-align: center;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
-  font-family: Nirmala UI;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  text-transform: uppercase;
-
-  padding: 10px 27px 23px 27px;
 }
 
 .prev-button,
@@ -320,11 +307,9 @@ body {
 }
 
 .prev-button {
-  background-color: transparent;
-  left: 5%;
+  left: 10px;
 }
 
 .next-button {
-  background-color: transparent;
-  right: 5%;
+  right: 10px;
 }

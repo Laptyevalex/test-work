@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) and (max-width: 780px) {
+@media screen and (min-width: 360px) {
   .first-girl {
   }
   .second-girl {
@@ -34,7 +34,5 @@
     width: 324px;
   }
   .list-btn {
-    position: absolute;
-    bottom: 5%;
   }
 }
